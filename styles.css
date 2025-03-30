@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e9ecef;
+}
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#todo-form-section {
+    margin: 20px;
+}
+#new-todo {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+#todo-list-section {
+    margin: 20px;
+}
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+#todo-list li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Added new styles */
+.toolbox {
+    float: right;
+}
+
+/*modify todo, initially not displayed. */
+.todo-input {
+    display: none;
+    width: 50%;
+}
+
+/* Toast error message */
+#error-box {
+    display: none;
+    font-size: large;
+    color: white;
+    border-style: solid ;
+    border-color: black;
+    background-color: gray;
+    border-width: 2px;
+
+    padding: 4px;
+    margin: auto;
+    width: 50%;
+}
